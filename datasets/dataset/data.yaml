@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['man']
+
+roboflow:
+  workspace: people-detection-ia1rx
+  project: detetion-people-from-drone
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/people-detection-ia1rx/detetion-people-from-drone/dataset/2
